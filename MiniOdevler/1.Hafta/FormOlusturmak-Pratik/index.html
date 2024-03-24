@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formu Doldur</title>
+</head>
+<body>
+    <h1>KAYIT FORMU</h1>
+        <form action="thankyou.html" method="get">
+            <!--Text Input - Start-->
+                <input type="text" required placeholder="Ad"> <br><br>
+                <input type="text" required placeholder="Soyad"> <br><br>
+            <!--Mail Input Start-->
+                <input type="email" required placeholder="Ornek@mail.com"> <br><br>
+            <!--Password Input Start-->
+                <input type="password" required placeholder="sifre"> <br><br>
+            <!--Gender Input Start-->
+                Cinsiyet <br><br>
+                <input type="radio" name="Cinsiyet" required>Erkek
+                <input type="radio" name="Cinsiyet" required>Kadın 
+                <input type="radio" name="Cinsiyet" required>Belirtmek istemiyorum <br><br>
+            <!--Select Input Start-->
+            Favori Mevyenizi Seçiniz
+                <select>
+                    <option value="Seçiniz" aria-required="true">Seçiniz</option>
+                    <option value="Kiraz">Kiraz</option>
+                    <option value="Erik">Erik</option>
+                    <option value="Portakal">Portakal</option>
+                    <option value="Elma">Elma</option>
+                    <option value="Muz">Muz</option>
+                    <option value="Nar">Nar</option>
+                </select>
+                <br><br>
+            <!--textarea - Start -->
+                <textarea name="metinname" id="metinid" placeholder="metin giriniz..." cols="70" rows="10"></textarea>
+                <br><br>
+            <!--Submit Start-->
+                <input type="submit">
+        </form> 
+</body>
+</html>

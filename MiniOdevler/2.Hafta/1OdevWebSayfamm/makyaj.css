@@ -1,0 +1,66 @@
+.h1-position {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-position {
+   position: absolute;
+   top: 10%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.p-position {
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    top: 100px;
+}
+.ol-position {
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    top: 850px;
+}
+.section-position {
+    position: absolute;
+    left: 120px;
+    right: 100px;
+    top: 1320px;
+}
+.footer-position {
+    position: absolute;
+    left: 140px;
+    right: 100px;
+    top: 2350px;
+}
+#footer-positionbjk {
+    position: absolute;
+    left: 140px;
+    right: 100px;
+    top: 1800px;
+}
+#footer-positionfb {
+    position: absolute;
+    left: 140px;
+    right: 100px;
+    top: 1800px;
+}
+#h1-colorgs {
+    color: red;
+}
+#h1-colorfb {
+    color: blue;
+}
+.p-colors {
+    color: rgb(78, 4, 55);
+}
+
+body {
+    background-image: url(https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2086000/2087038.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+
+}
